@@ -33,8 +33,8 @@ Todas as instruções que podem ser geradas apos a compilação de um codigo:
 - RETURN (Retornar de procedimento)
 
 ###Programa exemplo
-
-programa exemplo6;
+```
+programa exemplo:
   var x, y: integer;
   
   procedimento p;
@@ -44,7 +44,7 @@ programa exemplo6;
     se z>1 entao p
            senao y:=1;
     y:=y*z
-    fim { p };
+  fim { p };
     
  inicio
    leia(x);
@@ -52,4 +52,4 @@ programa exemplo6;
    escreva (y);
    escreva (x)
  fim. 
-
+```
